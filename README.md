@@ -10,7 +10,7 @@
   -Play with Kubernetes https://labs.play-with-k8s.com/ 
 
 # How to Create a CronJob
-  Here is a sample config file for a CronJob to run task every minute:
+  Here is a sample config file for a CronJob to run task every minute: (Please rephrase it in Golang)
 
   -   apiVersion: batch/v1
   -   kind: CronJob
@@ -39,7 +39,7 @@
 3. kubectl get cronjob hello   (to get status)
 4. The output looks like:
 
-  - NAME    SCHEDULE      SUSPEND   ACTIVE   LAST SCHEDULE   AGE
+  - NAME        SCHEDULE        SUSPEND      ACTIVE      LAST      SCHEDULE      AGE
   - hello   */1 * * * *   False     0        <none>          10s
 
 # Trouble Shooting
