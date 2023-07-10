@@ -1,16 +1,15 @@
-# CronJobs in Kubernetes 
-- How to Run Automated Tasks with a CronJob 
+# How to Run Automated Tasks with a CronJob?
 
 # Pre-requisite
 - Kubernetes cluster
-- kubectl command-line tool must be configured to communicate with your  cluster. 
-- It is recommended to run a cluster with at least two nodes that are not acting as control plane hosts. If cluster not available, you can create by using minikube or you can use one of these Kubernetes playgrounds:
+- kubectl command-line tool must be configured to communicate with your cluster. 
+- It is recommended to run a cluster with at least two nodes that are not acting as control plane hosts. If the cluster is not available, you can create it by using minikube or you can use one of these Kubernetes playgrounds:
 
   -Killercoda https://killercoda.com/playgrounds/scenario/kubernetes
   -Play with Kubernetes https://labs.play-with-k8s.com/ 
 
-# How to Create a CronJob
-  Here is a sample config file for a CronJob to run task every minute: (Please rephrase it in Golang)
+# How to Create a CronJob?
+  Here is a sample config file for a CronJob to runthe  task every minute: (Please rephrase it in Golang)
 
   -   apiVersion: batch/v1
   -   kind: CronJob
